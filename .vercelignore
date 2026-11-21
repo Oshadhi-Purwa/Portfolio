@@ -1,0 +1,11 @@
+.DS_Store
+Thumbs.db
+*.log
+scratch_*
+detect_*
+inspect_*
+check_*
+cover_text.ps1
+clean_cover.ps1
+node_modules/
+.git/
