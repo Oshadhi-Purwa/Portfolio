@@ -210,10 +210,8 @@ function initPebbleCloche(container, data, index) {
     transmission: 0.88, // Translucent liquid glass
     opacity: 0.96,
     transparent: true,
-    ior: 1.48, // Water / liquid glass optical index
-    thickness: 1.8,
-    specularIntensity: 2.2,
-    specularColor: 0xffffff,
+    ior: 1.48, // Water / liquid glass optical index (maps to reflectivity in r128)
+    reflectivity: 0.9,
     clearcoat: 1.0,
     clearcoatRoughness: 0.03
   });
